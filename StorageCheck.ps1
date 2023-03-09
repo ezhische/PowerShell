@@ -1,0 +1,1 @@
+Get-Disk | select Number, FriendlyName, OperationalStatus, Size, PartitionStyle, BusType | sort Number | ft -AutoSize
